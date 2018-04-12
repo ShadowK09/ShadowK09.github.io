@@ -11,6 +11,8 @@ public class Test {
 		InputStream is = null;
 		OutputStream os = null;
 		
+		System.out.println("123");
+		
 		try {
 			is = new FileInputStream("D:/javaSVN/copy.txt");
 			os = new FileOutputStream("D:/Program Files/copy_temp.txt");
